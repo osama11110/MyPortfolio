@@ -18,13 +18,14 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/16692.jpg") top right no-repeat;
+  background: url("../img/16692.jpg") top right no-repeat;
   background-size: center;
   left: 0;
   right: 0;
   top: 0;
-  height: 100vh;
+  height: auto;
   z-index: -1;
+  width: auto;
 }
 @media (min-width: 700px) {
   body::before {
